@@ -1,0 +1,49 @@
+.columns {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-width: 50%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    transition: all 0.5s ease-in-out;
+    opacity: 1;
+    position: relative;
+}
+
+.hide {
+    opacity: 0;
+}
+
+.value {
+    font-size: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-top: 2px;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.img {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: teal;
+    border: 1px solid beige;
+    color: whitesmoke;
+    padding: 2px 5px;
+}
+
+.close:hover {
+    background-color: aquamarine;
+    cursor: pointer;
+    font-weight: bold;
+}
