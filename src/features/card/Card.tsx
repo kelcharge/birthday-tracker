@@ -13,7 +13,7 @@ export function Card(props: any) {
 
     // Render
     return (
-        <div className={cardClass + " w-2/5"}>
+        <div className={cardClass + " w-full lg:max-w-sm m-4"}>
             <img
                 className={styles.img + " animate-bounce"}
                 src={props.image}

@@ -114,8 +114,8 @@ export function Circle() {
     }
 
     return (
-        <div className='flex flex-row justify-center flex-grow'>
-            <div className='flex flex-col w-2/3 justify-center'>
+        <div className='flex flex-row justify-center'>
+            <div className='flex flex-col w-full lg:max-w-md justify-center'>
                 <canvas
                     ref={canvasRef}
                     id='canvas'
